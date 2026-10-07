@@ -1,5 +1,5 @@
 {% set name = "citeproc" %}
-{% set version = "1.0.9" %}
+{% set version = "1.3.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: f7c6dc61dba0a4d2ee3724e6337047b64c3a5f7d5782254cfa97decf653d878f
+  sha256: 73788c9e01da3d74fec711ee422fcf3f67f408645e388a3fc3ca5d5e3af8181e
 
 build:
   noarch: generic
